@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dac>
+  <tilesets>
+    <tileset id="0" name="Subway station" unique="1" width="5" height="8" />
+    <tileset id="1" name="Metro Tunnel" unique="1" width="5" height="9" />
+    <tileset id="2" name="Sewer" unique="1" width="8" height="25" />
+  </tilesets>
+  <statics>
+    <sta filename="test0.png" height="256" id="1" layer="1" name="P.L.Z 2" width="256">
+      <cpoly ctype="0" cx="176" cy="126" id="0" type="5" x1="83" x2="253" y1="0" y2="252">
+        <v x="253" y="0"/>
+        <v x="247" y="252"/>
+        <v x="83" y="188"/>
+        <v x="86" y="64"/>
+      </cpoly>
+    </sta>
+    <sta filename="test0.png" height="256" id="2" layer="1" name="test2" width="256"/>
+    <sta filename="test0.png" height="256" id="3" layer="1" name="test3" width="256"/>
+    <sta filename="test0.png" height="256" id="4" layer="1" name="test4" width="256"/>
+    <sta filename="s_0.png" height="256" id="5" layer="0" name="station_shadow01" width="256"/>
+    <sta filename="s_1.png" height="256" id="6" layer="0" name="station_shadow02" width="256"/>
+    <sta filename="s_2.png" height="256" id="7" layer="0" name="station_shadow03" width="256"/>
+    <sta filename="s_3.png" height="256" id="8" layer="0" name="station_shadow04" width="256"/>
+    <sta filename="s_4.png" height="256" id="9" layer="0" name="station_shadow05" width="256"/>
+    <sta filename="s_5.png" height="256" id="10" layer="0" name="station_shadow06" width="256"/>
+    <sta filename="s_6.png" height="256" id="11" layer="0" name="station_shadow07" width="256"/>
+    <sta filename="s_7.png" height="256" id="12" layer="0" name="station_shadow07" width="256"/>
+    <sta filename="s_8.png" height="256" id="13" layer="0" name="station_shadow09" width="256"/>
+    <sta filename="s_9.png" height="256" id="14" layer="0" name="station_shadow10" width="256"/>
+    <sta filename="s_10.png" height="256" id="15" layer="0" name="station_shadow11" width="256"/>
+    <sta filename="s_11.png" height="256" id="16" layer="0" name="station_shadow12" width="256"/>
+    <sta filename="s_12.png" height="256" id="17" layer="0" name="station_shadow13" width="256"/>
+    <sta filename="s_13.png" height="256" id="18" layer="0" name="station_shadow14" width="256"/>
+    <sta filename="s_14.png" height="256" id="19" layer="0" name="station_shadow15" width="256"/>
+    <sta filename="s_15.png" height="256" id="20" layer="0" name="station_shadow16" width="256"/>
+    <sta filename="s_16.png" height="256" id="21" layer="0" name="station_shadow17" width="256"/>
+    <sta filename="s_17.png" height="256" id="22" layer="0" name="station_shadow18" width="256"/>
+    <sta filename="s_18.png" height="256" id="23" layer="0" name="station_shadow19" width="256"/>
+    <sta filename="s_19.png" height="256" id="24" layer="0" name="station_shadow20" width="256"/>
+    <sta filename="s_20.png" height="256" id="25" layer="0" name="station_shadow21" width="256"/>
+    <sta filename="s_21.png" height="256" id="26" layer="0" name="station_shadow22" width="256"/>
+    <sta filename="s_22.png" height="256" id="27" layer="0" name="station_shadow23" width="256"/>
+    <sta filename="s_23.png" height="256" id="28" layer="0" name="station_shadow24" width="256"/>
+    <sta filename="s_24.png" height="256" id="29" layer="0" name="station_shadow25" width="256"/>
+    <sta filename="s_25.png" height="256" id="30" layer="0" name="station_shadow26" width="256"/>
+    <sta filename="s_26.png" height="256" id="31" layer="0" name="station_shadow27" width="256"/>
+    <sta filename="s_27.png" height="256" id="32" layer="0" name="station_shadow28" width="256"/>
+    <sta filename="s_28.png" height="256" id="33" layer="0" name="station_shadow29" width="256"/>
+    <sta filename="s_29.png" height="256" id="34" layer="0" name="station_shadow30" width="256"/>
+    <sta filename="s_30.png" height="256" id="35" layer="0" name="station_shadow31" width="256"/>
+    <sta filename="s_31.png" height="256" id="36" layer="0" name="station_shadow32" width="256"/>
+    <sta filename="s_32.png" height="256" id="37" layer="0" name="station_shadow33" width="256"/>
+    <sta filename="s_33.png" height="256" id="38" layer="0" name="station_shadow34" width="256"/>
+    <sta filename="s_34.png" height="256" id="39" layer="0" name="station_shadow35" width="256"/>
+    <sta filename="s_35.png" height="256" id="40" layer="0" name="station_shadow36" width="256"/>
+    <sta filename="s_36.png" height="256" id="41" layer="0" name="station_shadow37" width="256"/>
+    <sta filename="s_37.png" height="256" id="42" layer="0" name="station_shadow38" width="256"/>
+    <sta filename="s_38.png" height="256" id="43" layer="0" name="station_shadow39" width="256"/>
+    <sta filename="s_39.png" height="256" id="44" layer="0" name="station_shadow40" width="256"/>
+    <sta filename="t_0.png" height="256" id="45" layer="0" name="tunnel_shadow0" width="256"/>
+    <sta filename="t_1.png" height="256" id="46" layer="0" name="tunnel_shadow1" width="256"/>
+    <sta filename="t_2.png" height="256" id="47" layer="0" name="tunnel_shadow2" width="256"/>
+    <sta filename="t_3.png" height="256" id="48" layer="0" name="tunnel_shadow3" width="256"/>
+    <sta filename="t_4.png" height="256" id="49" layer="0" name="tunnel_shadow4" width="256"/>
+    <sta filename="t_5.png" height="256" id="50" layer="0" name="tunnel_shadow5" width="256"/>
+    <sta filename="t_6.png" height="256" id="51" layer="0" name="tunnel_shadow6" width="256"/>
+    <sta filename="t_7.png" height="256" id="52" layer="0" name="tunnel_shadow7" width="256"/>
+    <sta filename="t_8.png" height="256" id="53" layer="0" name="tunnel_shadow8" width="256"/>
+    <sta filename="t_9.png" height="256" id="54" layer="0" name="tunnel_shadow9" width="256"/>
+    <sta filename="t_10.png" height="256" id="55" layer="0" name="tunnel_shadow10" width="256"/>
+    <sta filename="t_11.png" height="256" id="56" layer="0" name="tunnel_shadow11" width="256"/>
+    <sta filename="t_12.png" height="256" id="57" layer="0" name="tunnel_shadow12" width="256"/>
+    <sta filename="t_13.png" height="256" id="58" layer="0" name="tunnel_shadow13" width="256"/>
+    <sta filename="t_14.png" height="256" id="59" layer="0" name="tunnel_shadow14" width="256"/>
+    <sta filename="t_15.png" height="256" id="60" layer="0" name="tunnel_shadow15" width="256"/>
+    <sta filename="t_16.png" height="256" id="61" layer="0" name="tunnel_shadow16" width="256"/>
+    <sta filename="t_17.png" height="256" id="62" layer="0" name="tunnel_shadow17" width="256"/>
+    <sta filename="t_18.png" height="256" id="63" layer="0" name="tunnel_shadow18" width="256"/>
+    <sta filename="t_19.png" height="256" id="64" layer="0" name="tunnel_shadow19" width="256"/>
+    <sta filename="t_20.png" height="256" id="65" layer="0" name="tunnel_shadow20" width="256"/>
+    <sta filename="t_21.png" height="256" id="66" layer="0" name="tunnel_shadow21" width="256"/>
+    <sta filename="t_22.png" height="256" id="67" layer="0" name="tunnel_shadow22" width="256"/>
+    <sta filename="t_23.png" height="256" id="68" layer="0" name="tunnel_shadow23" width="256"/>
+    <sta filename="t_24.png" height="256" id="69" layer="0" name="tunnel_shadow24" width="256"/>
+    <sta filename="t_25.png" height="256" id="70" layer="0" name="tunnel_shadow25" width="256"/>
+    <sta filename="t_26.png" height="256" id="71" layer="0" name="tunnel_shadow26" width="256"/>
+    <sta filename="t_27.png" height="256" id="72" layer="0" name="tunnel_shadow27" width="256"/>
+    <sta filename="t_28.png" height="256" id="73" layer="0" name="tunnel_shadow28" width="256"/>
+    <sta filename="t_29.png" height="256" id="74" layer="0" name="tunnel_shadow29" width="256"/>
+    <sta filename="t_30.png" height="257" id="75" layer="0" name="tunnel_shadow30" width="256"/>
+    <sta filename="t_31.png" height="257" id="76" layer="0" name="tunnel_shadow31" width="256"/>
+    <sta filename="t_32.png" height="257" id="77" layer="0" name="tunnel_shadow32" width="256"/>
+    <sta filename="t_33.png" height="257" id="78" layer="0" name="tunnel_shadow33" width="256"/>
+    <sta filename="t_34.png" height="257" id="79" layer="0" name="tunnel_shadow34" width="256"/>
+    <sta filename="t_35.png" height="255" id="80" layer="0" name="tunnel_shadow35" width="256"/>
+    <sta filename="t_36.png" height="255" id="81" layer="0" name="tunnel_shadow36" width="256"/>
+    <sta filename="t_37.png" height="255" id="82" layer="0" name="tunnel_shadow37" width="256"/>
+    <sta filename="t_38.png" height="255" id="83" layer="0" name="tunnel_shadow38" width="256"/>
+    <sta filename="t_39.png" height="255" id="84" layer="0" name="tunnel_shadow39" width="256"/>
+    <sta filename="t_40.png" height="255" id="85" layer="0" name="tunnel_shadow40" width="256"/>
+    <sta filename="t_41.png" height="255" id="86" layer="0" name="tunnel_shadow41" width="256"/>
+    <sta filename="t_42.png" height="255" id="87" layer="0" name="tunnel_shadow42" width="256"/>
+    <sta filename="t_43.png" height="255" id="88" layer="0" name="tunnel_shadow43" width="256"/>
+    <sta filename="t_44.png" height="255" id="89" layer="0" name="tunnel_shadow44" width="256"/>
+    <sta filename="w_0.png" height="256" id="90" layer="0" name="sewer_shadow0" width="256"/>
+    <sta filename="w_1.png" height="256" id="91" layer="0" name="sewer_shadow1" width="256"/>
+    <sta filename="w_2.png" height="256" id="92" layer="0" name="sewer_shadow2" width="256"/>
+    <sta filename="w_3.png" height="256" id="93" layer="0" name="sewer_shadow3" width="256"/>
+    <sta filename="w_4.png" height="256" id="94" layer="0" name="sewer_shadow4" width="256"/>
+    <sta filename="w_5.png" height="256" id="95" layer="0" name="sewer_shadow5" width="256"/>
+    <sta filename="w_6.png" height="256" id="96" layer="0" name="sewer_shadow6" width="256"/>
+    <sta filename="w_7.png" height="256" id="97" layer="0" name="sewer_shadow7" width="256"/>
+    <sta filename="w_8.png" height="256" id="98" layer="0" name="sewer_shadow8" width="256"/>
+    <sta filename="w_9.png" height="256" id="99" layer="0" name="sewer_shadow9" width="256"/>
+    <sta filename="w_10.png" height="256" id="100" layer="0" name="sewer_shadow10" width="256"/>
+    <sta filename="w_11.png" height="256" id="101" layer="0" name="sewer_shadow11" width="256"/>
+    <sta filename="w_12.png" height="256" id="102" layer="0" name="sewer_shadow12" width="256"/>
+    <sta filename="w_13.png" height="256" id="103" layer="0" name="sewer_shadow13" width="256"/>
+    <sta filename="w_14.png" height="256" id="104" layer="0" name="sewer_shadow14" width="256"/>
+    <sta filename="w_15.png" height="256" id="105" layer="0" name="sewer_shadow15" width="256"/>
+    <sta filename="w_16.png" height="256" id="106" layer="0" name="sewer_shadow16" width="256"/>
+    <sta filename="w_17.png" height="256" id="107" layer="0" name="sewer_shadow17" width="256"/>
+    <sta filename="w_18.png" height="256" id="108" layer="0" name="sewer_shadow18" width="256"/>
+    <sta filename="w_19.png" height="256" id="109" layer="0" name="sewer_shadow19" width="256"/>
+    <sta filename="w_20.png" height="256" id="110" layer="0" name="sewer_shadow20" width="256"/>
+    <sta filename="w_21.png" height="256" id="111" layer="0" name="sewer_shadow21" width="256"/>
+    <sta filename="w_22.png" height="256" id="112" layer="0" name="sewer_shadow22" width="256"/>
+    <sta filename="w_23.png" height="256" id="113" layer="0" name="sewer_shadow23" width="256"/>
+    <sta filename="w_24.png" height="256" id="114" layer="0" name="sewer_shadow24" width="256"/>
+    <sta filename="w_25.png" height="256" id="115" layer="0" name="sewer_shadow25" width="256"/>
+    <sta filename="w_26.png" height="256" id="116" layer="0" name="sewer_shadow26" width="256"/>
+    <sta filename="w_27.png" height="256" id="117" layer="0" name="sewer_shadow27" width="256"/>
+    <sta filename="w_28.png" height="256" id="118" layer="0" name="sewer_shadow28" width="256"/>
+    <sta filename="w_29.png" height="256" id="119" layer="0" name="sewer_shadow29" width="256"/>
+    <sta filename="w_30.png" height="256" id="120" layer="0" name="sewer_shadow30" width="256"/>
+    <sta filename="w_31.png" height="256" id="121" layer="0" name="sewer_shadow31" width="256"/>
+    <sta filename="w_32.png" height="256" id="122" layer="0" name="sewer_shadow32" width="256"/>
+    <sta filename="w_33.png" height="256" id="123" layer="0" name="sewer_shadow33" width="256"/>
+    <sta filename="w_34.png" height="256" id="124" layer="0" name="sewer_shadow34" width="256"/>
+    <sta filename="w_35.png" height="256" id="125" layer="0" name="sewer_shadow35" width="256"/>
+    <sta filename="w_36.png" height="256" id="126" layer="0" name="sewer_shadow36" width="256"/>
+    <sta filename="w_37.png" height="256" id="127" layer="0" name="sewer_shadow37" width="256"/>
+    <sta filename="w_38.png" height="256" id="128" layer="0" name="sewer_shadow38" width="256"/>
+    <sta filename="w_39.png" height="256" id="129" layer="0" name="sewer_shadow39" width="256"/>
+    <sta filename="w_40.png" height="256" id="130" layer="0" name="sewer_shadow40" width="256"/>
+    <sta filename="w_41.png" height="256" id="131" layer="0" name="sewer_shadow41" width="256"/>
+    <sta filename="w_42.png" height="256" id="132" layer="0" name="sewer_shadow42" width="256"/>
+    <sta filename="w_43.png" height="256" id="133" layer="0" name="sewer_shadow43" width="256"/>
+    <sta filename="w_44.png" height="256" id="134" layer="0" name="sewer_shadow44" width="256"/>
+    <sta filename="w_45.png" height="256" id="135" layer="0" name="sewer_shadow45" width="256"/>
+    <sta filename="w_46.png" height="256" id="136" layer="0" name="sewer_shadow46" width="256"/>
+    <sta filename="w_47.png" height="256" id="137" layer="0" name="sewer_shadow47" width="256"/>
+    <sta filename="w_48.png" height="256" id="138" layer="0" name="sewer_shadow48" width="256"/>
+    <sta filename="w_49.png" height="256" id="139" layer="0" name="sewer_shadow49" width="256"/>
+    <sta filename="w_50.png" height="256" id="140" layer="0" name="sewer_shadow50" width="256"/>
+    <sta filename="w_51.png" height="256" id="141" layer="0" name="sewer_shadow51" width="256"/>
+    <sta filename="w_52.png" height="256" id="142" layer="0" name="sewer_shadow52" width="256"/>
+    <sta filename="w_53.png" height="256" id="143" layer="0" name="sewer_shadow53" width="256"/>
+    <sta filename="w_54.png" height="256" id="144" layer="0" name="sewer_shadow54" width="256"/>
+    <sta filename="w_55.png" height="256" id="145" layer="0" name="sewer_shadow55" width="256"/>
+    <sta filename="w_56.png" height="256" id="146" layer="0" name="sewer_shadow56" width="256"/>
+    <sta filename="w_57.png" height="256" id="147" layer="0" name="sewer_shadow57" width="256"/>
+    <sta filename="w_58.png" height="256" id="148" layer="0" name="sewer_shadow58" width="256"/>
+    <sta filename="w_59.png" height="256" id="149" layer="0" name="sewer_shadow59" width="256"/>
+    <sta filename="w_60.png" height="256" id="150" layer="0" name="sewer_shadow60" width="256"/>
+    <sta filename="w_61.png" height="256" id="151" layer="0" name="sewer_shadow61" width="256"/>
+    <sta filename="w_62.png" height="256" id="152" layer="0" name="sewer_shadow62" width="256"/>
+    <sta filename="w_63.png" height="256" id="153" layer="0" name="sewer_shadow63" width="256"/>
+    <sta filename="w_64.png" height="256" id="154" layer="0" name="sewer_shadow64" width="256"/>
+    <sta filename="w_65.png" height="256" id="155" layer="0" name="sewer_shadow65" width="256"/>
+    <sta filename="w_66.png" height="256" id="156" layer="0" name="sewer_shadow66" width="256"/>
+    <sta filename="w_67.png" height="256" id="157" layer="0" name="sewer_shadow67" width="256"/>
+    <sta filename="w_68.png" height="256" id="158" layer="0" name="sewer_shadow68" width="256"/>
+    <sta filename="w_69.png" height="256" id="159" layer="0" name="sewer_shadow69" width="256"/>
+    <sta filename="w_70.png" height="256" id="160" layer="0" name="sewer_shadow70" width="256"/>
+    <sta filename="w_71.png" height="256" id="161" layer="0" name="sewer_shadow71" width="256"/>
+    <sta filename="w_72.png" height="256" id="162" layer="0" name="sewer_shadow72" width="256"/>
+    <sta filename="w_73.png" height="256" id="163" layer="0" name="sewer_shadow73" width="256"/>
+    <sta filename="w_74.png" height="256" id="164" layer="0" name="sewer_shadow74" width="256"/>
+    <sta filename="w_75.png" height="256" id="165" layer="0" name="sewer_shadow75" width="256"/>
+    <sta filename="w_76.png" height="256" id="166" layer="0" name="sewer_shadow76" width="256"/>
+    <sta filename="w_77.png" height="256" id="167" layer="0" name="sewer_shadow77" width="256"/>
+    <sta filename="w_78.png" height="256" id="168" layer="0" name="sewer_shadow78" width="256"/>
+    <sta filename="w_79.png" height="256" id="169" layer="0" name="sewer_shadow79" width="256"/>
+    <sta filename="w_80.png" height="256" id="170" layer="0" name="sewer_shadow80" width="256"/>
+    <sta filename="w_81.png" height="256" id="171" layer="0" name="sewer_shadow81" width="256"/>
+    <sta filename="w_82.png" height="256" id="172" layer="0" name="sewer_shadow82" width="256"/>
+    <sta filename="w_83.png" height="256" id="173" layer="0" name="sewer_shadow83" width="256"/>
+    <sta filename="w_84.png" height="256" id="174" layer="0" name="sewer_shadow84" width="256"/>
+    <sta filename="w_85.png" height="256" id="175" layer="0" name="sewer_shadow85" width="256"/>
+    <sta filename="w_86.png" height="256" id="176" layer="0" name="sewer_shadow86" width="256"/>
+    <sta filename="w_87.png" height="256" id="177" layer="0" name="sewer_shadow87" width="256"/>
+    <sta filename="w_88.png" height="256" id="178" layer="0" name="sewer_shadow88" width="256"/>
+    <sta filename="w_89.png" height="256" id="179" layer="0" name="sewer_shadow89" width="256"/>
+    <sta filename="w_90.png" height="256" id="180" layer="0" name="sewer_shadow90" width="256"/>
+    <sta filename="w_91.png" height="256" id="181" layer="0" name="sewer_shadow91" width="256"/>
+    <sta filename="w_92.png" height="256" id="182" layer="0" name="sewer_shadow92" width="256"/>
+    <sta filename="w_93.png" height="256" id="183" layer="0" name="sewer_shadow93" width="256"/>
+    <sta filename="w_94.png" height="256" id="184" layer="0" name="sewer_shadow94" width="256"/>
+    <sta filename="w_95.png" height="256" id="185" layer="0" name="sewer_shadow95" width="256"/>
+    <sta filename="w_96.png" height="256" id="186" layer="0" name="sewer_shadow96" width="256"/>
+    <sta filename="w_97.png" height="256" id="187" layer="0" name="sewer_shadow97" width="256"/>
+    <sta filename="w_98.png" height="256" id="188" layer="0" name="sewer_shadow98" width="256"/>
+    <sta filename="w_99.png" height="256" id="189" layer="0" name="sewer_shadow99" width="256"/>
+    <sta filename="w_100.png" height="256" id="190" layer="0" name="sewer_shadow100" width="256"/>
+    <sta filename="w_101.png" height="256" id="191" layer="0" name="sewer_shadow101" width="256"/>
+    <sta filename="w_102.png" height="256" id="192" layer="0" name="sewer_shadow102" width="256"/>
+    <sta filename="w_103.png" height="256" id="193" layer="0" name="sewer_shadow103" width="256"/>
+    <sta filename="w_104.png" height="256" id="194" layer="0" name="sewer_shadow104" width="256"/>
+    <sta filename="w_105.png" height="256" id="195" layer="0" name="sewer_shadow105" width="256"/>
+    <sta filename="w_106.png" height="256" id="196" layer="0" name="sewer_shadow106" width="256"/>
+    <sta filename="w_107.png" height="256" id="197" layer="0" name="sewer_shadow107" width="256"/>
+    <sta filename="w_108.png" height="256" id="198" layer="0" name="sewer_shadow108" width="256"/>
+    <sta filename="w_109.png" height="256" id="199" layer="0" name="sewer_shadow109" width="256"/>
+    <sta filename="w_110.png" height="256" id="200" layer="0" name="sewer_shadow110" width="256"/>
+    <sta filename="w_111.png" height="256" id="201" layer="0" name="sewer_shadow111" width="256"/>
+    <sta filename="w_112.png" height="256" id="202" layer="0" name="sewer_shadow112" width="256"/>
+    <sta filename="w_113.png" height="256" id="203" layer="0" name="sewer_shadow113" width="256"/>
+    <sta filename="w_114.png" height="256" id="204" layer="0" name="sewer_shadow114" width="256"/>
+    <sta filename="w_115.png" height="256" id="205" layer="0" name="sewer_shadow115" width="256"/>
+    <sta filename="w_116.png" height="256" id="206" layer="0" name="sewer_shadow116" width="256"/>
+    <sta filename="w_117.png" height="256" id="207" layer="0" name="sewer_shadow117" width="256"/>
+    <sta filename="w_118.png" height="256" id="208" layer="0" name="sewer_shadow118" width="256"/>
+    <sta filename="w_119.png" height="256" id="209" layer="0" name="sewer_shadow119" width="256"/>
+    <sta filename="w_120.png" height="256" id="210" layer="0" name="sewer_shadow120" width="256"/>
+    <sta filename="w_121.png" height="256" id="211" layer="0" name="sewer_shadow121" width="256"/>
+    <sta filename="w_122.png" height="256" id="212" layer="0" name="sewer_shadow122" width="256"/>
+    <sta filename="w_123.png" height="256" id="213" layer="0" name="sewer_shadow123" width="256"/>
+    <sta filename="w_124.png" height="256" id="214" layer="0" name="sewer_shadow124" width="256"/>
+    <sta filename="w_125.png" height="256" id="215" layer="0" name="sewer_shadow125" width="256"/>
+    <sta filename="w_126.png" height="256" id="216" layer="0" name="sewer_shadow126" width="256"/>
+    <sta filename="w_127.png" height="256" id="217" layer="0" name="sewer_shadow127" width="256"/>
+    <sta filename="w_128.png" height="256" id="218" layer="0" name="sewer_shadow128" width="256"/>
+    <sta filename="w_129.png" height="256" id="219" layer="0" name="sewer_shadow129" width="256"/>
+    <sta filename="w_130.png" height="256" id="220" layer="0" name="sewer_shadow130" width="256"/>
+    <sta filename="w_131.png" height="256" id="221" layer="0" name="sewer_shadow131" width="256"/>
+    <sta filename="w_132.png" height="256" id="222" layer="0" name="sewer_shadow132" width="256"/>
+    <sta filename="w_133.png" height="256" id="223" layer="0" name="sewer_shadow133" width="256"/>
+    <sta filename="w_134.png" height="256" id="224" layer="0" name="sewer_shadow134" width="256"/>
+    <sta filename="w_135.png" height="256" id="225" layer="0" name="sewer_shadow135" width="256"/>
+    <sta filename="w_136.png" height="256" id="226" layer="0" name="sewer_shadow136" width="256"/>
+    <sta filename="w_137.png" height="256" id="227" layer="0" name="sewer_shadow137" width="256"/>
+    <sta filename="w_138.png" height="256" id="228" layer="0" name="sewer_shadow138" width="256"/>
+    <sta filename="w_139.png" height="256" id="229" layer="0" name="sewer_shadow139" width="256"/>
+    <sta filename="w_140.png" height="256" id="230" layer="0" name="sewer_shadow140" width="256"/>
+    <sta filename="w_141.png" height="256" id="231" layer="0" name="sewer_shadow141" width="256"/>
+    <sta filename="w_142.png" height="256" id="232" layer="0" name="sewer_shadow142" width="256"/>
+    <sta filename="w_143.png" height="256" id="233" layer="0" name="sewer_shadow143" width="256"/>
+    <sta filename="w_144.png" height="256" id="234" layer="0" name="sewer_shadow144" width="256"/>
+    <sta filename="w_145.png" height="256" id="235" layer="0" name="sewer_shadow145" width="256"/>
+    <sta filename="w_146.png" height="256" id="236" layer="0" name="sewer_shadow146" width="256"/>
+    <sta filename="w_147.png" height="256" id="237" layer="0" name="sewer_shadow147" width="256"/>
+    <sta filename="w_148.png" height="256" id="238" layer="0" name="sewer_shadow148" width="256"/>
+    <sta filename="w_149.png" height="256" id="239" layer="0" name="sewer_shadow149" width="256"/>
+    <sta filename="w_150.png" height="256" id="240" layer="0" name="sewer_shadow150" width="256"/>
+    <sta filename="w_151.png" height="256" id="241" layer="0" name="sewer_shadow151" width="256"/>
+    <sta filename="w_152.png" height="256" id="242" layer="0" name="sewer_shadow152" width="256"/>
+    <sta filename="w_153.png" height="256" id="243" layer="0" name="sewer_shadow153" width="256"/>
+    <sta filename="w_154.png" height="256" id="244" layer="0" name="sewer_shadow154" width="256"/>
+    <sta filename="w_155.png" height="256" id="245" layer="0" name="sewer_shadow155" width="256"/>
+    <sta filename="w_156.png" height="256" id="246" layer="0" name="sewer_shadow156" width="256"/>
+    <sta filename="w_157.png" height="256" id="247" layer="0" name="sewer_shadow157" width="256"/>
+    <sta filename="w_158.png" height="256" id="248" layer="0" name="sewer_shadow158" width="256"/>
+    <sta filename="w_159.png" height="256" id="249" layer="0" name="sewer_shadow159" width="256"/>
+    <sta filename="w_160.png" height="256" id="250" layer="0" name="sewer_shadow160" width="256"/>
+    <sta filename="w_161.png" height="256" id="251" layer="0" name="sewer_shadow161" width="256"/>
+    <sta filename="w_162.png" height="256" id="252" layer="0" name="sewer_shadow162" width="256"/>
+    <sta filename="w_163.png" height="256" id="253" layer="0" name="sewer_shadow163" width="256"/>
+    <sta filename="w_164.png" height="256" id="254" layer="0" name="sewer_shadow164" width="256"/>
+    <sta filename="w_165.png" height="256" id="255" layer="0" name="sewer_shadow165" width="256"/>
+    <sta filename="w_166.png" height="256" id="256" layer="0" name="sewer_shadow166" width="256"/>
+    <sta filename="w_167.png" height="256" id="257" layer="0" name="sewer_shadow167" width="256"/>
+    <sta filename="w_168.png" height="256" id="258" layer="0" name="sewer_shadow168" width="256"/>
+    <sta filename="w_169.png" height="256" id="259" layer="0" name="sewer_shadow169" width="256"/>
+    <sta filename="w_170.png" height="256" id="260" layer="0" name="sewer_shadow170" width="256"/>
+    <sta filename="w_171.png" height="256" id="261" layer="0" name="sewer_shadow171" width="256"/>
+    <sta filename="w_172.png" height="256" id="262" layer="0" name="sewer_shadow172" width="256"/>
+    <sta filename="w_173.png" height="256" id="263" layer="0" name="sewer_shadow173" width="256"/>
+    <sta filename="w_174.png" height="256" id="264" layer="0" name="sewer_shadow174" width="256"/>
+    <sta filename="w_175.png" height="256" id="265" layer="0" name="sewer_shadow175" width="256"/>
+    <sta filename="w_176.png" height="256" id="266" layer="0" name="sewer_shadow176" width="256"/>
+    <sta filename="w_177.png" height="256" id="267" layer="0" name="sewer_shadow177" width="256"/>
+    <sta filename="w_178.png" height="256" id="268" layer="0" name="sewer_shadow178" width="256"/>
+    <sta filename="w_179.png" height="256" id="269" layer="0" name="sewer_shadow179" width="256"/>
+    <sta filename="w_180.png" height="256" id="270" layer="0" name="sewer_shadow180" width="256"/>
+    <sta filename="w_181.png" height="256" id="271" layer="0" name="sewer_shadow181" width="256"/>
+    <sta filename="w_182.png" height="256" id="272" layer="0" name="sewer_shadow182" width="256"/>
+    <sta filename="w_183.png" height="256" id="273" layer="0" name="sewer_shadow183" width="256"/>
+    <sta filename="w_184.png" height="256" id="274" layer="0" name="sewer_shadow184" width="256"/>
+    <sta filename="w_185.png" height="256" id="275" layer="0" name="sewer_shadow185" width="256"/>
+    <sta filename="w_186.png" height="256" id="276" layer="0" name="sewer_shadow186" width="256"/>
+    <sta filename="w_187.png" height="256" id="277" layer="0" name="sewer_shadow187" width="256"/>
+    <sta filename="w_188.png" height="256" id="278" layer="0" name="sewer_shadow188" width="256"/>
+    <sta filename="w_189.png" height="256" id="279" layer="0" name="sewer_shadow189" width="256"/>
+    <sta filename="w_190.png" height="256" id="280" layer="0" name="sewer_shadow190" width="256"/>
+    <sta filename="w_191.png" height="256" id="281" layer="0" name="sewer_shadow191" width="256"/>
+    <sta filename="w_192.png" height="256" id="282" layer="0" name="sewer_shadow192" width="256"/>
+    <sta filename="w_193.png" height="256" id="283" layer="0" name="sewer_shadow193" width="256"/>
+    <sta filename="w_194.png" height="256" id="284" layer="0" name="sewer_shadow194" width="256"/>
+    <sta filename="w_195.png" height="256" id="285" layer="0" name="sewer_shadow195" width="256"/>
+    <sta filename="w_196.png" height="256" id="286" layer="0" name="sewer_shadow196" width="256"/>
+    <sta filename="w_197.png" height="256" id="287" layer="0" name="sewer_shadow197" width="256"/>
+    <sta filename="w_198.png" height="256" id="288" layer="0" name="sewer_shadow198" width="256"/>
+    <sta filename="w_199.png" height="256" id="289" layer="0" name="sewer_shadow199" width="256"/>
+  </statics>
+  <items>
+	<weapons>
+		<weapon name="Beretta 92" desc="Beretta 92. The basic handgun for the US armed forces." id="6" value="50"
+			weight="3" ownerId="-1" invgfx="beretta92UI.png" worldgfx="beretta92World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.5" dmgStrMod="0" dmgDexMod="0.5" isTwoHanded="false" ammoType="1"
+			defaultAmmoId="0" attackTimeSingle="700" attackTimeBurst="700" hasBurst="false"
+			reloadTime="1000" range="150">
+			<usageSnds>
+				<snd>pistol.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+		<weapon name="MAC10" desc="A motherf***ing machine pistol." id="7" value="50"
+			weight="3" ownerId="-1" invgfx="mac10UI.png" worldgfx="mac10World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.0" dmgStrMod="1" dmgDexMod="2" isTwoHanded="false" ammoType="6"
+			defaultAmmoId="1" attackTimeSingle="700" attackTimeBurst="255" hasBurst="true"
+			reloadTime="2000" range="200">
+			<usageSnds>
+				<snd>pistol.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+		<weapon name="MP5" desc="This is a gun included in every game ever." id="8" value="50"
+			weight="3" ownerId="-1" invgfx="mp5UI.png" worldgfx="mp5World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.3" dmgStrMod="2" dmgDexMod="2" isTwoHanded="true" ammoType="2"
+			defaultAmmoId="5" attackTimeSingle="700" attackTimeBurst="277" hasBurst="true"
+			reloadTime="2000" range="300">
+			<usageSnds>
+				<snd>pistol.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+		<weapon name="AK103" desc="An upgraded model of the famous Kalashnikov rifle." id="9" value="50"
+			weight="3" ownerId="-1" invgfx="ak103UI.png" worldgfx="ak103World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.8" dmgStrMod="2" dmgDexMod="2" isTwoHanded="true" ammoType="5"
+			defaultAmmoId="2" attackTimeSingle="300" attackTimeBurst="170" hasBurst="true"
+			reloadTime="2000" range="400">
+			<usageSnds>
+				<snd>ak47_single.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+		<weapon name="M4A1" desc="Nicked Carbine, this is a rifle of U.S. Spec Ops units. Why do these terrorists carry them? ..." id="10" value="50"
+			weight="3" ownerId="-1" invgfx="m4a1UI.png" worldgfx="m4a1World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.8" dmgStrMod="2" dmgDexMod="2" isTwoHanded="true" ammoType="4"
+			defaultAmmoId="3" attackTimeSingle="300" attackTimeBurst="167" hasBurst="true"
+			reloadTime="2000" range="400">
+			<usageSnds>
+				<snd>pistol.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+		<weapon name="Barrett M82A1" desc="A shot of the .50 would be enough to penetrate even a brick wall or a car engine. This specimen was most likely intended to blow you up." 
+			id="11" value="50"
+			weight="3" ownerId="-1" invgfx="m82a1UI.png" worldgfx="m82a1World.png" weaponType="ranged"
+			minStr="1" dmgBase="1.9" dmgStrMod="1" dmgDexMod="2" isTwoHanded="true" ammoType="3"
+			defaultAmmoId="4" attackTimeSingle="1000" attackTimeBurst="150" hasBurst="false"
+			reloadTime="3000" range="600">
+			<usageSnds>
+				<snd>machinegun.mp3</snd>
+				<snd></snd>
+				<snd>emptyclip.mp3</snd>
+			</usageSnds>
+		</weapon>
+    </weapons>
+	<clutters/>
+	<ammos>
+		<ammo clipSize="15" desc="A mag for Beretta 92." dmgModArmor="4" dmgModHealth="0.5" id="0" 
+			invgfx="berettaclipUI.png" name="9mm Beretta magazine" ownerId="-1" type="1" usageSnd="loadclip.mp3" 
+			value="500" weight="1.0" worldgfx="berettaclipWorld.png" typeAbbreviation="TA" />
+		
+		<ammo clipSize="15" desc="A mag for MAC10." dmgModArmor="4" dmgModHealth="0.5" id="1" 
+			invgfx="mac10clipUI.png" name="9mm MAC10 magazine" ownerId="-1" type="6" usageSnd="loadclip.mp3" 
+			value="500" weight="1.0" worldgfx="mac10clipWorld.png" typeAbbreviation="TA" />
+			
+		<ammo clipSize="30" desc="A mag for AK103." dmgModArmor="4" dmgModHealth="0.5" id="2" 
+			invgfx="ak103clipUI.png" name="7.62mm magazine" ownerId="-1" type="5" usageSnd="loadclip.mp3" 
+			value="500" weight="1.0" worldgfx="ak103clipWorld.png" typeAbbreviation="TA" />
+		
+		<ammo clipSize="30" desc="A mag for M4A1." dmgModArmor="4" dmgModHealth="0.5" id="3" 
+			invgfx="m4a1clipUI.png" name="5.56mm magazine" ownerId="-1" type="4" usageSnd="loadclip.mp3" 
+			value="500" weight="1.0" worldgfx="m4a1clipWorld.png" typeAbbreviation="TA"/>
+			
+		<ammo clipSize="10" desc="A mag for M82A1." dmgModArmor="4" dmgModHealth="0.5" id="4" 
+			invgfx="m82a1clipUI.png" name=".50 BMG magazine" ownerId="-1" type="0" usageSnd="loadclip.mp3" 
+			value="500" width="1" worldgfx="m82a1clipWorld.png" typeAbbreviation="TA" />
+		
+		<ammo clipSize="30" desc="A mag for MP5." dmgModArmor="4" dmgModHealth="0.5" id="5"
+			invgfx="mp5clipUI.png" name="9mm MP5 magazine" ownerId="-1" type="2" usageSnd="loadclip.mp3" 
+			value="500" weight="1.0" worldgfx="mp5clipWorld.png" typeAbbreviation="FMJ" />
+    </ammos>
+	<medicals>
+		<medical name="Hypodermic" desc="Mental anesthetic." id="12" value="50000" weight="10" ownerId="-1"
+			invgfx="hyponeedleUI.png" worldgfx="hyponeedleWorld.png" usageSnd="" interval="100"
+			strDuration="0" dexDuration="0" intDuration="0" htDuration="30"
+			strEffectType="0" dexEffectType="0" intEffectType="0" htEffectType="0"
+			strEffectPower="0" dexEffectPower="0" intEffectPower="0" htEffectPower="0.5"/>
+		<medical name="Speed" desc="Uppers, downers, screamers, laughers." id="13" value="50000" weight="10" ownerId="-1"
+			invgfx="redbluepillsUI.png" worldgfx="redbluepillsWorld.png" usageSnd="" interval="100"
+			strDuration="0" dexDuration="0" intDuration="0" htDuration="5"
+			strEffectType="0" dexEffectType="0" intEffectType="0" htEffectType="0"
+			strEffectPower="0" dexEffectPower="0" intEffectPower="0" htEffectPower="5"/>
+    </medicals>
+	<armors/>
+  </items>
+  <entities>
+	<humannpc id="0" name="Anthony Forrester" uiGfx="pcavatar.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="10" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="60" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="100">
+		<inventoryIdList>
+			<item>0</item>
+			<item>1</item>
+			<item>6</item>
+			<item>10</item>
+			<item>3</item>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="1" name="Roger Dorrington" uiGfx="npcavatar0.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_STAY_STILL"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="200">
+		<inventoryIdList>
+			<item>12</item>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="2" name="Richard Toole" uiGfx="npcavatar1.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="300">
+		<inventoryIdList>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="3" name="William Broadus" uiGfx="npcavatar2.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="400">
+		<inventoryIdList>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="4" name="Hans Doering" uiGfx="npcavatar3.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="500">
+		<inventoryIdList>
+			<item>12</item>
+			<item>12</item>
+			<item>13</item>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="5" name="Tommy Studden" uiGfx="npcavatar4.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="600">
+		<inventoryIdList>
+		</inventoryIdList>
+	</humannpc>
+	<humannpc id="6" name="Mahdullah Hussain" uiGfx="npcavatar5.png" gameGfxClass="NPCBasic" 
+		attStr="7" attDex="5" attInt="3" attHt="30" health="30" aiState="AI_STATE_NEUTRAL_IDLE"  boundingRadius="9"
+		skill0="15" skill1="10" skill2="15" skill3="20" skill4="19" 
+		skill5="0" skill6="0" skill7="0" skill8="0" skill9="0" skill10="0" 
+		skill11="0" skill12="0" skill13="0" skill14="0" skill15="0"
+		initialDialogueId="700">
+		<inventoryIdList>
+		</inventoryIdList>
+	</humannpc>
+  </entities>
+	<dialogs>
+		<dialog id="1"> <!-- generic -->
+			<text>...</text>
+			<dialogopt id="0" responseDialog="0">
+				<text>[Doesn't seem much of a talker.]</text>
+			</dialogopt>
+		</dialog>
+	
+		<dialog id="100"> <!-- PC -->
+			<text>Join the NYPD they said, see the world they said...<br/>All I can see are these goddamn sewers.</text>
+			<dialogopt id="0" responseDialogId="101">
+				<text>What was I supposed to do again...</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="102">
+				<text>How did those weapons work again...</text>
+			</dialogopt>
+			<dialogopt id="2" responseDialogId="0">
+				<text>Enough reflection, let's see some action!</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="101" includeOptionsFrom="100">
+			<text>Ah yes, I have to hunt down those guys who might be terrorists. Hope they don't pack any serious punch in their backpockets.</text>
+		</dialog>
+		<dialog id="102" includeOptionsFrom="100">
+			<text>Now I remember, first I have to have a weapon equipped and remove the safety trigger (equip slot glows green). Then I just aim and press the left mouse button to fire. I can put the safety trigger back on by pressing the active equip slot.</text>
+		</dialog>
+		
+		
+		<dialog id="200"> <!-- Roger Dorrington -->
+			<text>Ah, good to see you, detective.</text>
+			<dialogopt id="0" responseDialogId="201">
+				<text>Sergeant. What's the situation here?</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="0">
+				<text>Sorry, but I'm in a hurry.</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="201"> 
+			<text>Some ethic guys took out a couple of security guys about 20 minutes ago. The witnesses said that they suddenly opened fire and then ran away carrying large luggage of some sort.</text>
+			<dialogopt id="0" responseDialogId="202">
+				<text>I see. Explosives maybe?</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="202"> 
+			<text>We think so. There were at least 5 men carrying several bags.</text>
+			<dialogopt id="0" responseDialogId="203">
+				<text>Do you know what weapons they had?</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="203"> 
+			<text>The security guards were shot with pistols, but who knows what they might be carrying. My friend at counter-terrorism unit told me that they had had their eyes on some people who seemed to had been planning a bombing, probably here at the subways.</text>
+			<dialogopt id="0" responseDialogId="204">
+				<text>Better not take any chances then. Where were they headed?</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="204"> 
+			<text>Somewhere to the south-west from here. We don't know more than that yet, but a couple guys are investigating the place, why don't you ask them.</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>Gotcha. Keep yourself in one piece, Sergeant.</text>
+			</dialogopt>
+		</dialog>
+		
+		
+		<dialog id="300"> <!-- Richard Toole -->
+			<text>[This officer seems busy.]</text>
+			<dialogopt id="0" responseDialogId="3010">
+				<text>*Cough* What do we have here, officer?</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="3010">
+				<text>[Sneak up on him like a terrorist would...]</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="3010">
+			<text>[Seems alarmed.] Oh god! ...I thought you were one of the terrorists.</text>
+			<dialogopt id="0" responseDialogId="3011">
+				<text>Jumpy, aren't we?</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="3012">
+				<text>Maybe I am a terrorist after all, you can never be sure!</text>
+			</dialogopt>
+			<dialogopt id="2" responseDialogId="301">
+				<text>Just calm down and tell me what have you found out about the situation here.</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="3011">
+			<text>[Sighs] I'm not up for it to be here anyway. I was perfectly happy with my desk job, until some prick from HQ assigned me here.</text>
+			<dialogopt id="0" responseDialogId="30110">
+				<text>Aww...</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="30110">
+			<text>I normally never leave my home, except for work at the police department. The outside is dangerous with the terrorists and all that wandering along.</text>
+			<dialogopt id="0" responseDialogId="30111">
+				<text>You make it sound like it's swarming with terrorists!</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="30111">
+			<text>It says so on every news broadcast! Well, at least on Faux News Channel, anyways...</text>
+			<dialogopt id="0" responseDialogId="301110">
+				<text>You shouldn't believe everything that's said on TV.</text>
+			</dialogopt>			
+			<dialogopt id="1" responseDialogId="301111">
+				<text>Doesn't 'faux' mean fake?</text>
+			</dialogopt>
+			<dialogopt id="2" responseDialogId="0">
+				<text>Bah, I give up, you're hopeless!</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="301110">
+			<text>Now I feel offended.</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>OK! I'll just move along here, bye.</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="301111">
+			<text>No no no! ...Well I'm sure it can't mean that...uh, maybe it's a typo.<br/>I'm sorry, did you want something from me?</text>
+			<dialogopt id="0" responseDialogId="301">
+				<text>Well, I was hoping some information about the situation here.</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="3012">
+			<text>No you're not. If you were, I'd be dead already.</text>
+			<dialogopt id="0" responseDialogId="30120">
+				<text>It's nice to see a positive attitude for a change.</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="301">
+				<text>Yes, how stupid of me. Can you tell me anything about this place?</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="30120">
+			<text>I'm serious! The terrorists are bloodthirsty savages who would slice their own mother into pieces without a second thought! I'm not going any nearer to those people!</text>
+			<dialogopt id="0" responseDialogId="301">
+				<text>Okay, you need calm down a bit and tell me what you've found.</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="301">
+			<text>We checked the subway train back there, but didn't find really anything, thank Goodness. I hear the witnesses said that the terrorists who shot those security people headed south, so at least I know where I'm NOT going.</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>Thanks.</text>
+			</dialogopt>
+		</dialog>
+		
+		<dialog id="400"> <!-- William Broadus -->
+			<text>Ah...it's you Anthony.</text>
+			<dialogopt id="0" responseDialogId="401">
+				<text>Yeah, I'm still in one piece.</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="401">
+			<text>And let's hope it stays that way. You've been fully briefed, I assume? ...some damn terrorists they say. Some witnesses saw them heading to the south. We need to keep this area secured until the big boys get here...If they get here at all.</text>
+			<dialogopt id="0" responseDialogId="402">
+				<text>What do you mean, if they get here?</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="0">
+				<text>They don't pay me enough for this...bye.</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="402">
+			<text>Don't you follow the news, boy? It's all messed up in the big circles. The government's so corrupt I wouldn't be surprised if they set up this 'terrorist attack' themselves! Ruling people with fear is an old trick, and a pretty damn efficient one.</text>
+			<dialogopt id="0" responseDialogId="403">
+				<text>You watch too much TV, old man.</text>
+			</dialogopt>
+			<dialogopt id="1" responseDialogId="0">
+				<text>Riight. I'll be going now...</text>
+			</dialogopt>
+		</dialog>
+		<dialog id="403">
+			<text>Bah! You youngsters are so naive. Just go on with your patrolling already...but don't come back full of lead.</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>Yeah, yeah...</text>
+			</dialogopt>
+		</dialog>
+		
+		
+		<dialog id="500"> <!-- Hans Doering -->
+			<text>...</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>[Doesn't seem much of a talker.]</text>
+			</dialogopt>
+		</dialog>
+		
+		
+		<dialog id="600"> <!-- Tommy Studden -->
+			<text>...</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>[Doesn't seem much of a talker.]</text>
+			</dialogopt>
+		</dialog>
+		
+		
+		<dialog id="700"> <!-- Madullah Hussain -->
+			<text>...</text>
+			<dialogopt id="0" responseDialogId="0">
+				<text>[Doesn't seem much of a talker.]</text>
+			</dialogopt>
+		</dialog>
+	</dialogs>
+</dac>
